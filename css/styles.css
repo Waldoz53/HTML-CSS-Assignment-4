@@ -4,9 +4,10 @@ font-family: 'Antic', sans-serif;
 font-family: 'Lato', sans-serif;
 
 Colors:
-#1B54BA
+#762113
 #ffffff or white
-
+#290904
+#161616
 
 */
 
@@ -20,11 +21,11 @@ General
 
 header {
     height: 80px;
-    background: #1B54BA;
+    background: #762113;
 }
 
 h1 {
-    font-family: 'Antic', sans-serif;
+    font-family: 'Metrophobic', sans-serif;
 }
 
 li {
@@ -37,6 +38,7 @@ ul {
 }
 
 a {
+    transition: 0.4s;
     text-decoration: none !important;
 }
 
@@ -48,7 +50,7 @@ a:hover {
 Header
 *********/
 .logo-container {
-    background: #1B54BA;
+    background: #762113;
     height: 50px;
     padding: 15px;
 }
@@ -92,22 +94,41 @@ header ul {
 Hero
 ***********/
 .hero {
-    background: #161616;
+    background: #290904;
     background-image: url('../img/mountain-view.jpg');
-    height: 700px;
+    height: 850px;
     object-fit: cover;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
+    padding-top: 500px;
 }
 
+.hero h1, p, a {
+    color: white;
+}
 
+.card {
+    background: #13764A;
+    width: 400px;
+    text-align: center;
+    padding: 32px;
+    transition: 0.3s;
+    transform: translateY(20px);
+    opacity: 0;
+    box-shadow: none;
+}
 
+.hero .wrapper {
+    display: flex;
+    justify-content: center;
+}
 
-
-
-
-
+.card:hover {
+    transform: translateY(0px);
+    opacity: 1;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
 
 /*  */
