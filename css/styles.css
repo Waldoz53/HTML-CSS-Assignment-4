@@ -120,6 +120,13 @@ Hero
     box-shadow: none;
 }
 
+.card a {
+    background: #012917;
+    border-radius: 25px;
+    padding: 10px 30px;
+    border: 1px solid white;
+}
+
 .hero .wrapper {
     display: flex;
     justify-content: center;
