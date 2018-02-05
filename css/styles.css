@@ -35,6 +35,7 @@ li {
 ul {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 a {
@@ -96,7 +97,7 @@ Hero
 .hero {
     background: #290904;
     background-image: url('../img/mountain-view.jpg');
-    height: 100%;
+    height: 800px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -113,7 +114,7 @@ Hero
     width: 400px;
     text-align: center;
     padding: 32px;
-    transition: 0.3s;
+    transition: 0.4s;
     transform: translateY(20px);
     opacity: 0;
     box-shadow: none;
@@ -135,6 +136,43 @@ Hero
     transform: translateY(0px);
     opacity: 1;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+/**************
+footer styles
+*************/
+
+footer {
+    background: #290904;
+    height: 200px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+footer .footer-container {
+    width: 25%;
+}
+
+.social-media li {
+    display: inline-block;
+}
+
+/*************
+Media Queries
+**************/
+
+@media (max-width: 768px) {
+    header h1 {
+        display: none;
+    }
 }
 
 /*  */
