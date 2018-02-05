@@ -96,6 +96,17 @@ header ul {
     margin-left: 50px;
 }
 
+.mobile-menu {
+    background: #762113;
+    height: 230px;
+    text-align: center;
+    transform: translateY(-230px);
+    transition: 0.3s;
+}
+
+.open {
+    transform: translateY(0px);
+}
 /***********
 Hero
 ***********/
