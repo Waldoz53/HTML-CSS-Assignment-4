@@ -24,7 +24,7 @@ header {
     background: #762113;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Metrophobic', sans-serif;
 }
 
@@ -90,6 +90,11 @@ header ul {
     align-items: center;
 }
 
+.fa-bars {
+    display: none;
+    padding-top: 15px;
+    margin-left: 50px;
+}
 
 /***********
 Hero
@@ -144,7 +149,7 @@ footer styles
 
 footer {
     background: #290904;
-    height: 200px;
+    height: 100%;
     width: 100%;
     color: white;
     text-align: center;
@@ -154,7 +159,7 @@ footer .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding: 20px 0;
 }
 
 footer .footer-container {
@@ -170,9 +175,35 @@ Media Queries
 **************/
 
 @media (max-width: 768px) {
+    .wrapper {
+        width: 40%;
+    }
+
     header h1 {
         display: none;
     }
+
+    .card {
+        display: none;
+    }
+
+    footer .wrapper {
+        display: inline-block;
+    }
+
+    footer .footer-container {
+        width: 100%;
+        margin-top: 10px;
+    }
 }
 
+@media (max-width: 590px) {
+    .nav-anchor {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+}
 /*  */
