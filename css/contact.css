@@ -23,3 +23,7 @@ input {
     display: none; }
   .mobile-details {
     display: block; } }
+
+@media (max-width: 900px) {
+  .contact {
+    height: 600px; } }
