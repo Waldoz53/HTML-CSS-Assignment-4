@@ -1,0 +1,42 @@
+@import "./variables";
+
+.contact-wrapper {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.contact {
+    background: $dark-color;
+    height: 800px;
+    padding: 20px;
+
+    h1 {
+        color: white;
+    }
+}
+
+input {
+    display: block;
+    margin: 20px 0;
+}
+
+.desktop-details {
+
+}
+
+.mobile-details {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .contact {
+        height: 500px;
+    }
+    .desktop-details {
+        display: none;
+    }
+
+    .mobile-details {
+        display: block;
+    }
+}
