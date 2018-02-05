@@ -22,7 +22,7 @@ Hero
   transition: 0.4s;
   transform: translateY(20px);
   opacity: 0;
-  box-shadow: none; }
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5); }
   .card a {
     background: #012917;
     border-radius: 25px;
@@ -31,7 +31,7 @@ Hero
   .card .wrapper {
     display: flex;
     justify-content: center; }
-  .card :hover {
-    transform: translateY(0px);
-    opacity: 1;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5); }
+
+.card:hover {
+  transform: translateY(0px);
+  opacity: 1; }
