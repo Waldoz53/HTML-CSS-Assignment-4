@@ -1,0 +1,24 @@
+{
+  "name": "html-css-assignment-4",
+  "version": "1.0.0",
+  "description": "4. Four Page Website - 40%\r Feel free to use lorem ipsum for the content. I will be marking this project based on the following things:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waldoz53/HTML-CSS-Assignment-4.git"
+  },
+  "author": "waldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Waldoz53/HTML-CSS-Assignment-4/issues"
+  },
+  "homepage": "https://github.com/Waldoz53/HTML-CSS-Assignment-4#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
