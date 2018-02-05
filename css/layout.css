@@ -1,0 +1,28 @@
+/**********
+General
+***********/
+.wrapper {
+  margin: 0 auto;
+  width: 80%; }
+
+header {
+  height: 80px;
+  background: #762113; }
+
+h1, h2 {
+  font-family: "Metrophobic", sans-serif; }
+
+li {
+  font-family: "Lato", sans-serif; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  transition: 0.3s;
+  text-decoration: none !important; }
+  a :hover {
+    color: inherit;
+    opacity: 0.4; }

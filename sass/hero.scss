@@ -1,0 +1,48 @@
+@import "./variables.scss";
+
+/***********
+Hero
+***********/
+.hero {
+    background: $background-color;
+    background-image: url('../img/mountain-view.jpg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 500px;
+}
+
+.hero h1, p, a {
+    color: white;
+}
+
+.card {
+    background: #13764A;
+    width: 400px;
+    text-align: center;
+    padding: 32px;
+    transition: 0.4s;
+    transform: translateY(20px);
+    opacity: 0;
+    box-shadow: none;
+
+    a {
+        background: #012917;
+        border-radius: 25px;
+        padding: 10px 30px;
+        border: 1px solid white;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    :hover {
+        transform: translateY(0px);
+        opacity: 1;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    }
+}

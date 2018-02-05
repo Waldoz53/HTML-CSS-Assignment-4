@@ -1,0 +1,136 @@
+/**********
+General
+***********/
+.wrapper {
+  margin: 0 auto;
+  width: 80%; }
+
+header {
+  height: 80px;
+  background: #762113; }
+
+h1, h2 {
+  font-family: "Metrophobic", sans-serif; }
+
+li {
+  font-family: "Lato", sans-serif; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  transition: 0.3s;
+  text-decoration: none !important; }
+  a :hover {
+    color: inherit;
+    opacity: 0.4; }
+
+/*********
+Header
+*********/
+.logo-container {
+  background: #762113;
+  height: 50px;
+  padding: 15px; }
+
+header h1 {
+  margin-left: 20px; }
+
+header li {
+  list-style: none;
+  font-size: 20px;
+  margin-left: 40px; }
+
+.logo-anchor {
+  color: #161616; }
+
+.nav-anchor {
+  color: white; }
+
+header .wrapper {
+  height: 80px;
+  display: flex;
+  justify-content: space-between; }
+
+header .logo-container {
+  display: flex;
+  align-items: flex-start; }
+
+header ul {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center; }
+
+.fa-bars {
+  display: none;
+  padding-top: 15px;
+  margin-left: 50px; }
+
+.mobile-menu {
+  background: #762113;
+  height: 230px;
+  text-align: center;
+  transform: translateY(-230px);
+  transition: 0.3s; }
+
+.open {
+  transform: translateY(0px); }
+
+/***********
+Hero
+***********/
+.hero {
+  background: #290904;
+  background-image: url("../img/mountain-view.jpg");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 500px; }
+
+.hero h1, p, a {
+  color: white; }
+
+.card {
+  background: #13764A;
+  width: 400px;
+  text-align: center;
+  padding: 32px;
+  transition: 0.4s;
+  transform: translateY(20px);
+  opacity: 0;
+  box-shadow: none; }
+  .card a {
+    background: #012917;
+    border-radius: 25px;
+    padding: 10px 30px;
+    border: 1px solid white; }
+  .card .wrapper {
+    display: flex;
+    justify-content: center; }
+  .card :hover {
+    transform: translateY(0px);
+    opacity: 1;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5); }
+
+footer {
+  background: #290904;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center; }
+
+footer .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0; }
+
+footer .footer-container {
+  width: 25%; }
+
+.social-media li {
+  display: inline-block; }

@@ -1,0 +1,68 @@
+@import "./variables.scss";
+
+/*********
+Header
+*********/
+.logo-container {
+    background: $header-color;
+    height: 50px;
+    padding: 15px;
+}
+
+header {
+
+    h1 {
+        margin-left: 20px;
+    }
+
+    li {
+        list-style: none;
+        font-size: 20px;
+        margin-left: 40px;
+    }
+}
+
+.logo-anchor {
+    color: $dark-color;
+}
+
+.nav-anchor {
+    color: $white;
+}
+header {
+
+    .wrapper {
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-container {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    ul {
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.fa-bars {
+    display: none;
+    padding-top: 15px;
+    margin-left: 50px;
+}
+
+.mobile-menu {
+    background: $header-color;
+    height: 230px;
+    text-align: center;
+    transform: translateY(-230px);
+    transition: 0.3s;
+}
+
+.open {
+    transform: translateY(0px);
+}

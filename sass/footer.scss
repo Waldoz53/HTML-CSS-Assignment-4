@@ -1,0 +1,25 @@
+@import "./variables";
+
+
+footer {
+    background: $background-color;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+footer .footer-container {
+    width: 25%;
+}
+
+.social-media li {
+    display: inline-block;
+}

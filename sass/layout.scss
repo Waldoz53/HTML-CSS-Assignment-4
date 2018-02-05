@@ -1,0 +1,38 @@
+@import "./variables.scss";
+
+/**********
+General
+***********/
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+header {
+    height: 80px;
+    background: $header-color;
+}
+
+h1, h2 {
+    font-family: $header-font;
+}
+
+li {
+    font-family: $other-font;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    transition: 0.3s;
+    text-decoration: none !important;
+
+:hover {
+    color: inherit;
+    opacity: 0.4;
+    }
+}
